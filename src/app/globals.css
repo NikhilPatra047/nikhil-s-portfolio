@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech+Mono&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -17,6 +18,7 @@
 }
 
 body {
+  font-family: 'Roboto Mono', monospace;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +32,74 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom CSS */
+.menu_display {
+  display: block;
+}
+
+.menu_hidden {
+  display: none;
+}
+
+.hover_links {
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  border-bottom-color: rgb(126 34 206 / 1);
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.hover_links:hover {
+  border-bottom-width: 4px;
+}
+
+.web_links {
+  transition-property: all; 
+  transition-duration: 300ms; 
+  transition-timing-function: ease-in-out; 
+}
+
+.web_links:hover {
+  transform: scale(1.1);
+}
+
+.tech_stack {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech_stack p {
+  margin-top: 0.5rem;
+}
+
+.experience {
+  border-left-width: 2px;
+  padding-left: 2rem;
+  position: relative; 
+  right: -0.75rem;
+  border-left-color: black;
+  padding-bottom: 2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .experience {
+    border-left-color: white;
+  }
+}
+
+.experience h3 {
+  font-size: 1.2rem; 
+}
+
+.stack {
+  font-size: 0.8rem;
+}
+
+.date {
+  margin-left: 1rem; 
+  opacity: 0.8;
 }
