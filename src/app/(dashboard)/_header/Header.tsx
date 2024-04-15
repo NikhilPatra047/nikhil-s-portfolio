@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 
 import Image from "next/image"
 import { GiHamburgerMenu } from "react-icons/gi"
+import { ImCross } from "react-icons/im"
 import profile_pic from "../../../../public/assets/profile_pic.jpeg"
 import { usePathname } from "next/navigation"
 
@@ -43,10 +44,10 @@ export default function Header() {
         </nav>)
       }
       <button className={`${display === false? 'visible': 'hidden'}`} onClick={() => setIsOpen(!isOpen)} type="button">
-        <GiHamburgerMenu size={30} />
+        {!isOpen? <GiHamburgerMenu size={30} />: <ImCross size={30} />}
         {
           isOpen &&
-          <nav className="w-[15em] border-2 border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
+          <nav className="w-[15em] border-2 border-black dark:border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
             <ul className="text-[1.2rem] flex flex-col items-center justify-between">
               <a href="/home"><li className="hover_links mb-6">Home</li></a>
               <a href="/about"><li className="hover_links mb-6">About</li></a>
