@@ -34,7 +34,7 @@ export default function IntroSection() {
           <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://hashnode.com/@Nikey47">
             <FaHashnode size={30} />
           </a>
-          <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1zygNp2sR5AUO4UAD183IOFoINiUAJxW7/view?usp=sharing">
+          <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1AUQILOEaTP1P2YP2539iXdDfwn5d98KC/view?usp=sharing">
             <IoLink size={30} />
           </a>
         </div>
