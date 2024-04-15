@@ -17,7 +17,7 @@ export default function SkillsSection() {
   return (
     <section className="max-w-[1500px] mx-auto">
       <div className="w-[80%] lg:w-[50%] py-10 mx-auto">
-        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-white">Tech Stack</h2>
+        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-black dark:border-white">Tech Stack</h2>
         <div className="mt-8 flex flex-wrap gap-4">
           <div className="tech_stack">
             <FaHtml5 size={30} />

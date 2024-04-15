@@ -21,22 +21,24 @@ export default function IntroSection() {
           </div>
         </div>
         <h3 className="w-fit text-left mt-8 text-[1.2rem] mx-auto">Hello there! 👋 I&apos;m a front-end web developer based in Bengaluru, India. I&apos;m passionate about learning and sharing my knowledge in the field of Computer Science.</h3>
-        <div className="mt-4 flex items-center">
+        <div className="mt-4 max-sm:w-fit flex max-sm:flex-col sm:items-center">
           <a href="mailto:patra.nikhil04@gmail.com" className="transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-300 to-purple-500 dark:bg-gradient-to-r dark:from-purple-700 dark:to-purple-900 p-4 rounded-md inline-block">
             Send me a message
           </a>
-          <a className="ml-6 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://www.linkedin.com/in/nikhil-kumar-patra-29978120a/">
-            <FaLinkedin size={30} />
-          </a>
-          <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://github.com/NikhilPatra047">
-            <BsGithub size={30} />
-          </a>
-          <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://hashnode.com/@Nikey47">
-            <FaHashnode size={30} />
-          </a>
-          <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1AUQILOEaTP1P2YP2539iXdDfwn5d98KC/view?usp=sharing">
-            <IoLink size={30} />
-          </a>
+          <div className="sm:ml-6 max-sm:mt-4 max-sm:w-fit flex">
+            <a className="web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://www.linkedin.com/in/nikhil-kumar-patra-29978120a/">
+              <FaLinkedin size={30} />
+            </a>
+            <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://github.com/NikhilPatra047">
+              <BsGithub size={30} />
+            </a>
+            <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://hashnode.com/@Nikey47">
+              <FaHashnode size={30} />
+            </a>
+            <a className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1AUQILOEaTP1P2YP2539iXdDfwn5d98KC/view?usp=sharing">
+              <IoLink size={30} />
+            </a>
+          </div>
         </div>
       </div>
     </section>

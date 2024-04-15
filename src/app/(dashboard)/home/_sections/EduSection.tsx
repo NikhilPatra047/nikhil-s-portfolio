@@ -9,7 +9,7 @@ export default function EducationExperience() {
   return (
     <section className="max-w-[1500px] mx-auto">
       <div className="w-[80%] lg:w-[50%] py-10 mx-auto">
-        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-r-white">Education</h2>
+        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-r-black dark:border-r-white">Education</h2>
             <div className="mt-6 bg-gray-200/50 dark:bg-gray-200/20 p-4 rounded-lg">
               <div>
                 {

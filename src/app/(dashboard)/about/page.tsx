@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="max-w-[1500px] mx-auto">
       <div className="w-[90%] my-6 mx-auto">
-        <h1 className="text-[2.5rem] border-r-4 pr-2 w-fit border-r-white">About</h1>
+        <h1 className="text-[2.5rem] border-r-4 pr-2 w-fit border-r-black dark:border-r-white">About</h1>
         <div className="mt-4">
           <Image height={500} width={300} className="max-sm:w-full sm:float-left sm:mr-4" src={nikhil_fun} alt="A picture of author" />
           <p className="max-sm:mt-2">Bengaluru-based frontend web developer who likes to spend his time honing his coding skills, working on interesting projects, and learning something new related to the domain of Computer Science.</p>

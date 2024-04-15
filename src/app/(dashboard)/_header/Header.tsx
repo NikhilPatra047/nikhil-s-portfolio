@@ -47,7 +47,7 @@ export default function Header() {
         {!isOpen? <GiHamburgerMenu size={30} />: <ImCross size={30} />}
         {
           isOpen &&
-          <nav className="w-[15em] border-2 border-black dark:border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
+          <nav className="w-full shadow-2xl border-2 border-black dark:border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
             <ul className="text-[1.2rem] flex flex-col items-center justify-between">
               <a href="/home"><li className="hover_links mb-6">Home</li></a>
               <a href="/about"><li className="hover_links mb-6">About</li></a>
