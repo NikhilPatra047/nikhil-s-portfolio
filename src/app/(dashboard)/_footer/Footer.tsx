@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="max-w-[1500px] mx-auto flex flex-col lg:flex-row justify-between items-center p-4">
       <p className="max-lg:text-center">© Copyright 2024. All rights reserved.</p>
       <div className="max-lg:mt-4 flex items-center">
-        <a target="_blank" href="https://www.linkedin.com/in/nikhil-kumar-patra-29978120a/">
+        <a target="_blank" href="https://www.linkedin.com/in/nikhil-k-patra/">
           <FaLinkedin size={30} />
         </a>
         <a className="ml-4" target="_blank" href="https://github.com/NikhilPatra047">
@@ -17,7 +17,7 @@ export default function Footer() {
         <a className="ml-4" target="_blank" href="https://hashnode.com/@Nikey47">
           <FaHashnode size={30} />
         </a>
-        <a className="ml-4" target="_blank" href="https://drive.google.com/file/d/1Up5farVDzv5KWj1vKT3XDPl4qw4R3sWD/view?usp=sharing">
+        <a className="ml-4" target="_blank" href="https://drive.google.com/file/d/1dSSsoeEEZW5Uf7gduIOocpoqJiXqwc9C/view?usp=sharing">
           <IoLink size={30} />
         </a>
       </div>
