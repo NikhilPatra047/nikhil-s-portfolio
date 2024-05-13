@@ -40,7 +40,7 @@ export default function Card({ image, title, gitLink, webLink, desc, stacks }: {
           </div>
         </div>
       </article>
-      <div className="h-[1px] max-w-[1500px] mx-4 bg-gray-200 dark:bg-white" />
+      <div className="h-[1px] max-w-[1500px] mx-auto bg-gray-200 dark:bg-white" />
     </>
   )
 }
