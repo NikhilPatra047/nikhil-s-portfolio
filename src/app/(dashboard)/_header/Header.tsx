@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation"
 
 export default function Header() {
   const path = usePathname();
+  const matchRegex = /^\/$/;
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [display, setDisplay] = useState<boolean>(true);
 
@@ -37,9 +38,9 @@ export default function Header() {
         display &&
         (<nav className="w-[18em]">
           <ul className="text-[1.2rem] flex items-center justify-between">
-            <a href="/"><li className={`hover_links ${path.includes('/') && 'border-b-[4px]'}`}>Home</li></a>
-            <a href="/about"><li className={`hover_links ${path.includes('/about') && 'border-b-[4px]'}`}>About</li></a>
-            <a href="/projects"><li className={`hover_links ${path.includes('/projects') && 'border-b-[4px]'}`}>Projects</li></a>
+            <a href="/"><li className={`hover_links ${path.match(matchRegex) && 'border-b-[4px]'}`}>Home</li></a>
+            <a href="/about"><li className={`hover_links ${path.includes("/about") && 'border-b-[4px]'}`}>About</li></a>
+            <a href="/projects"><li className={`hover_links ${path.includes("/projects") && 'border-b-[4px]'}`}>Projects</li></a>
           </ul>
         </nav>)
       }
