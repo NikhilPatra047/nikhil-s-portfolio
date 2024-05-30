@@ -37,7 +37,7 @@ export default function Header() {
         display &&
         (<nav className="w-[18em]">
           <ul className="text-[1.2rem] flex items-center justify-between">
-            <a href="/home"><li className={`hover_links ${path.includes('/home') && 'border-b-[4px]'}`}>Home</li></a>
+            <a href="/"><li className={`hover_links ${path.includes('/') && 'border-b-[4px]'}`}>Home</li></a>
             <a href="/about"><li className={`hover_links ${path.includes('/about') && 'border-b-[4px]'}`}>About</li></a>
             <a href="/projects"><li className={`hover_links ${path.includes('/projects') && 'border-b-[4px]'}`}>Projects</li></a>
           </ul>
@@ -49,7 +49,7 @@ export default function Header() {
           isOpen &&
           <nav className="w-full shadow-2xl border-2 border-black dark:border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
             <ul className="text-[1.2rem] flex flex-col items-center justify-between">
-              <a href="/home"><li className="hover_links mb-6">Home</li></a>
+              <a href="/"><li className="hover_links mb-6">Home</li></a>
               <a href="/about"><li className="hover_links mb-6">About</li></a>
               <a href="/projects"><li className="hover_links mb-6">Projects</li></a>
             </ul>
