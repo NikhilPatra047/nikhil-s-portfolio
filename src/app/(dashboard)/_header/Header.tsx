@@ -38,9 +38,9 @@ export default function Header() {
         display &&
         (<nav className="w-[18em]">
           <ul className="text-[1.2rem] flex items-center justify-between">
-            <li className={`hover_links ${path.match(matchRegex) && 'border-b-[4px]'}`}><a href="/">Home</a></li>
-            <li className={`hover_links ${path.includes("/about") && 'border-b-[4px]'}`}><a href="/about">About</a></li>
-            <li className={`hover_links ${path.includes("/projects") && 'border-b-[4px]'}`}><a href="/projects">Projects</a></li>
+            <li className={`hover_links ${path.match(matchRegex) && 'border-b-[4px]'}`}><a aria-label="Navigate to the home page to check out my stats, work experience, get access to my blogs page, LinkedIn page, and resume." href="/">Home</a></li>
+            <li className={`hover_links ${path.includes("/about") && 'border-b-[4px]'}`}><a aria-label="Navigate to the about page to learn more about me and what I am passionate about." href="/about">About</a></li>
+            <li className={`hover_links ${path.includes("/projects") && 'border-b-[4px]'}`}><a aria-label="Click on Projects to view all the projects that I have worked on over the years." href="/projects">Projects</a></li>
           </ul>
         </nav>)
       }
