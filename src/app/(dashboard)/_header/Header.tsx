@@ -45,14 +45,14 @@ export default function Header() {
         </nav>)
       }
       <button className={`${display === false? 'visible': 'hidden'}`} onClick={() => setIsOpen(!isOpen)} type="button">
-        {!isOpen? <GiHamburgerMenu size={30} />: <ImCross size={30} />}
+        {!isOpen? <GiHamburgerMenu aria-label="Navigation Menu" size={30} />: <ImCross size={30} />}
         {
           isOpen &&
           <nav className="w-full shadow-2xl border-2 border-black dark:border-white p-4 dark:bg-black bg-white absolute top-[100%] right-0">
             <ul className="text-[1.2rem] flex flex-col items-center justify-between">
-              <a href="/"><li className="hover_links mb-6">Home</li></a>
-              <a href="/about"><li className="hover_links mb-6">About</li></a>
-              <a href="/projects"><li className="hover_links mb-6">Projects</li></a>
+              <a href="/" aria-label="Navigate to the home page to check out my stats, work experience, get access to my blogs page, LinkedIn page, and resume."><li className="hover_links mb-6">Home</li></a>
+              <a href="/about" aria-label="Navigate to the about page to learn more about me and what I am passionate about."><li className="hover_links mb-6">About</li></a>
+              <a href="/projects" aria-label="Click on Projects to view all the projects that I have worked on over the years."><li className="hover_links mb-6">Projects</li></a>
             </ul>
           </nav>
         }
