@@ -35,7 +35,7 @@ export default function IntroSection() {
             <a aria-label="Navigate to HashNode to check out my most recent blogs" className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://hashnode.com/@Nikey47">
               <FaHashnode size={30} />
             </a>
-            <a aria-label="Click to check out my resume" className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1idk08vXffMnlK7xOp7f_KqdbsRJWnCeK/view?usp=sharing">
+            <a aria-label="Click to check out my resume" className="ml-4 web_links hover:shadow-xl hover:shadow-purple-700" target="_blank" href="https://drive.google.com/file/d/1XVg6iOdLWRqR94MCJslUfr79BN9aG3yQ/view?usp=sharing">
               <IoLink size={30} />
             </a>
           </div>
