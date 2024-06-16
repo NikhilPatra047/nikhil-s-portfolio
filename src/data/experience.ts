@@ -4,7 +4,14 @@ const education = [
     heading: "Bachelor's Degree",
     org: "International Institute of Information Technology, Bhubaneswar", 
     degreeType: "Computer Engineering",
-    link: "https://drive.google.com/file/d/1jVjZjws9rSrYYkKr1i4A0bFneOG2LlX-/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1XVg6iOdLWRqR94MCJslUfr79BN9aG3yQ/view?usp=sharing"
+  },
+  {
+    year: "June 2024",
+    heading: "Back End Development and APIs", 
+    org: "FreeCodeCamp", 
+    degreeType: "Backend Developer",
+    link: "https://www.freecodecamp.org/certification/fcc63832497-b146-4b9e-a0a1-39002d95394a/back-end-development-and-apis"
   },
   {
     year: "May 2021 - October 2021",
@@ -12,7 +19,7 @@ const education = [
     org: "Scrimba", 
     degreeType: "Frontend Developer",
     link: "https://drive.google.com/file/d/1tFu_puUCVyEN7YqRz-NvgfOHq6B5QYHx/view?usp=sharing"
-  }
+  },
 ];
 
 const work = [
