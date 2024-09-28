@@ -17,7 +17,7 @@ export default function Footer() {
         <a className="ml-4" target="_blank" href="https://hashnode.com/@Nikey47">
           <FaHashnode size={30} />
         </a>
-        <a className="ml-4" target="_blank" href="https://drive.google.com/file/d/1Ezxp--gRpHMIQ4cm0Zqd9kGHLfPFujFK/view?usp=sharing">
+        <a className="ml-4" target="_blank" href="https://drive.google.com/file/d/1cetNp0w8UBRvn2RJEMwiJi-Jj1DwpRiY/view?usp=sharing">
           <IoLink size={30} />
         </a>
       </div>
