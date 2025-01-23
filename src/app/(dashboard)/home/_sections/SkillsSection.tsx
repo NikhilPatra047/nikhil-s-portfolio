@@ -1,23 +1,25 @@
-import { FaHtml5 } from "react-icons/fa"
-import { FaCss3Alt } from "react-icons/fa"
-import { SiTailwindcss } from "react-icons/si"
-import { FaReact } from "react-icons/fa"
-import { TbBrandNextjs } from "react-icons/tb"
-import { SiRedux } from "react-icons/si"
-import { FaNodeJs } from "react-icons/fa"
-import { SiExpress } from "react-icons/si"
-import { SiJest } from "react-icons/si"
-import { SiCypress } from "react-icons/si"
-import { IoLogoJavascript } from "react-icons/io5"
-import { SiTypescript } from "react-icons/si"
-import { SiPrisma } from "react-icons/si"
-import { FaPython } from "react-icons/fa"
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiRedux } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiCypress } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 
 export default function SkillsSection() {
   return (
     <section className="max-w-[1500px] mx-auto">
       <div className="w-[80%] lg:w-[50%] py-10 mx-auto">
-        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-black dark:border-white">Tech Stack</h2>
+        <h2 className="text-[1.5rem] w-fit pr-2 border-r-4 border-black dark:border-white">
+          Tech Stack
+        </h2>
         <div className="mt-8 flex flex-wrap gap-4">
           <div className="tech_stack">
             <FaHtml5 size={30} />
@@ -68,15 +70,11 @@ export default function SkillsSection() {
             <p>TypeScript</p>
           </div>
           <div className="tech_stack">
-            <FaPython size={30} />
-            <p>Python</p>
-          </div>
-          <div className="tech_stack">
             <SiPrisma size={30} />
             <p>Prisma</p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
